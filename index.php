@@ -1,8 +1,8 @@
 <?php
 
     function sendMsg($to, $msg) {
-        $user = "94771637551";
-        $password = "3803";
+        $user = "";         //user account ID
+        $password = "";     //user account password
 
         $text = urlencode($msg);
 
